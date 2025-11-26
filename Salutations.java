@@ -1,6 +1,10 @@
-public class Salutations { 
+public class Salutations {
     public static void main(String[] args) {
-        //String nom = args[0];
-        System.out.println("Bienvenue et exellente année scolaire " );
+        // Déclaration et initialisation des variables
+        String salutation = "Bienvenue dans le monde ";
+        String langage = "de Java !";
+
+        // Affichage du résultat en combinant les deux variables
+        System.out.println(salutation + langage);
     }
 }
